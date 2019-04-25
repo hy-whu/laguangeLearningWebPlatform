@@ -13,7 +13,9 @@
     <div class="flex-right">
       <div class="header-list">
         <span>|</span>
-        <span><a href="">登陆</a></span>
+        <router-link to="./login">
+          <span><a href="">登陆</a></span>
+        </router-link>
         <span></span>
         <span><a href="">注册</a></span>
         <span>|</span>
